@@ -1,0 +1,18 @@
+# Example Tardis.dev fetch config. Copy to config/local.yaml and edit,
+# or override any field with the matching --flag on the CLI.
+#
+# api_key is best left out of this file and provided instead via the
+# TARDIS_API_KEY environment variable or --api-key.
+
+exchange: binance
+data_types:
+  - trades
+  - book_snapshot_25
+symbols:
+  - BTCUSDT
+  - ETHUSDT
+from_date: "2024-01-01"
+to_date: "2024-01-07"
+output_dir: ./data
+format: csv
+overwrite: false
