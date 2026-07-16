@@ -20,7 +20,7 @@ TardisDevParser/
 ├── .gitignore
 │
 ├── config/
-│   └── example.yaml             # Sample fetch options (exchange, symbols, dates, ...)
+│   └── example.yaml             # Sample fetch options
 │
 ├── src/tardis_reader/           # The installable package
 │   ├── __init__.py              # Public exports
