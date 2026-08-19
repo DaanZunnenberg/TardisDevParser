@@ -1,7 +1,7 @@
 # Tardis.dev Data Fetcher
 
 A small, focused client for downloading historical cryptocurrency market data
-from [Tardis.dev](https://tardis.dev). It handles authentication, configuring
+from [Tardis-dev](https://tardis.dev). It handles authentication, configuring
 what data to pull (exchange, data types, symbols, date range), and writing the
 downloaded files to disk.
 
