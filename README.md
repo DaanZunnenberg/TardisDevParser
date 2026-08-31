@@ -127,3 +127,7 @@ Downloaded files land under `<output_dir>/<exchange>/<data_type>/<symbol>/<date>
 ```bash
 pytest
 ```
+
+---
+
+_Last reviewed: 2026-08-31._
